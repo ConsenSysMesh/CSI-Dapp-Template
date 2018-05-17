@@ -65,6 +65,7 @@
     "redux-auth-wrapper": "^1.0.0",
     "redux-saga": "^0.15.3",
     "redux-thunk": "^2.2.0",
+    "truffle-privatekey-provider": "0.0.6",
     "web3": "^1.0.0-beta.34"
   },
   "scripts": {

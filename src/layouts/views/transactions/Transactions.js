@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 import { Container } from 'reactstrap';
 //components
 import Header from '../../components/Header'
-import TransactionRow from '../../components/TransactionRow'
+//import TransactionRow from '../../components/TransactionRow'
+//styles
+import styles from '../../../css/main'
 
 class Transactions extends Component {
   constructor(props, context) {
@@ -54,8 +56,9 @@ class Transactions extends Component {
     return(
         <div>
           <Header />
-          <div style={{justifyContent: 'center', paddingLeft: 150, paddingRight: 150}}>
+          <div style={styles.toBeCreated}>
             <Container>
+              <p>Transaction Page: To be made!</p>
             </Container>
           </div>
         </div>
