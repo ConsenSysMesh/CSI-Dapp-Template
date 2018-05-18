@@ -29,7 +29,6 @@ class Home extends Component {
       timestamp: Date.now(),  //for timestamp submission in report
       signedJSON: '',         //signing message to pass on to server to pay gas fee/not user
       address: '',            //address of user to be recorded for signing message tx
-      txStatus: false
     }
   }
 
