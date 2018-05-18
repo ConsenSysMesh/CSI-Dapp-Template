@@ -40,7 +40,7 @@ This link is extremely helpful to learn what the heck Redux is: https://www.vale
 
 ## How is a Drizzle Dapp Connected Together?
 I could go on in words, but I find making a diagram much easier, and more helpful: 
-![alt text](http://truffleframework.com/images/suite/ganache/ganache-window.png)
+![alt text](https://drive.google.com/open?id=1Zenzd1vGda0UQQnjRJqks5-frVBjuR7m)
 
 ## Important Files in this Project
 The most important files in this project are the following (with definitions!):
