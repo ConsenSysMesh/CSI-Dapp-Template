@@ -1,4 +1,5 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.18;
+import "./ECRecovery.sol";
 
 contract Ownable {
 
@@ -55,7 +56,7 @@ contract ComplexStorage is Ownable {
 
 	//functions
 		//make a report (only by owner, which makes sense because all api calls will use owner address)
-		function makeReport(string report, uint32 timestamp, uint8 latitude, uint8 longitude) public onlyOwner returns (bool) {
+		function makeReport(string report, uint32 timestamp, uint8 latitude, uint8 longitude, bytes _signedMessage) public onlyOwner returns (bool) {
 			//incrementing Account
 			numReports += 1;
 			//adding new report to reports
